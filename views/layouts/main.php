@@ -19,6 +19,8 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="<?= Html::encode($this->keywords) ?>">
+    <meta name="description" content="<?= Html::encode($this->description) ?>">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
