@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="872bd5f8-4d13-496d-bb50-f4b30b3ee338" name="mks-nov.ru" url="http://rpm16.beget.tech">
+        <fileTransfer host="rpm16.beget.tech" port="21" rootFolder="/mks-nov.ru/public-html/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
